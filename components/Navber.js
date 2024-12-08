@@ -7,7 +7,7 @@ export default function Navber() {
           <div className="sm:flex items-stretch justify-between grow lg:mb-0 py-4 px-4">
             <div className="flex flex-row items-center justify-between mb-2 mr-4 lg:mb-0 gap-12">
               <div className="flex flex-col flex-wrap justify-center">
-                <span className="my-0 text-dark font-semibold text-[1.35rem]/[1.2]">WebbyFrames</span>
+                <span className="my-0 text-dark font-semibold text-[1.35rem]/[1.2]">GreenWebby</span>
                 <span className="pt-0.5 text-secondary-dark text-[0.95rem] font-medium">Project</span>
               </div>
               <div className="flex flex-row items-center gap-6 ml-auto">
@@ -24,14 +24,14 @@ export default function Navber() {
                     </svg>
                   </span>
                   <input className="block w-full min-w-[70px] py-3 pl-12 pr-4 text-base font-medium leading-normal bg-white border border-solid outline-none appearance-none placeholder:text-secondary-dark peer text-stone-500 border-stone-200 bg-clip-padding rounded-2xl" placeholder="Search..." type="text" />
-                  <span onclick="(() => { this.previousElementSibling.value=''})()" className="absolute right-0 left-auto mr-4 leading-none -translate-y-1/2 peer-placeholder-shown:hidden top-1/2 hover:text-primary text-muted">
+                  <span className="absolute right-0 left-auto mr-4 leading-none -translate-y-1/2 peer-placeholder-shown:hidden top-1/2 hover:text-primary text-muted">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                   </span>
                 </div>
                 <div className="relative lg:hidden flex items-center sm:ml-2 ml-auto">
-                  <a href="javascript:void(0)" className="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary" onclick="(function(){document.querySelector('.group\\/sidebar').classList.toggle('-translate-x-full');})();">
+                  <a href="javascript:void(0)" className="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
